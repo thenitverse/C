@@ -1,4 +1,4 @@
-##Mark & Sweep Garbage Collector (C)
+## Mark & Sweep Garbage Collector (C)
 
 A simple **mark-and-sweep garbage collector** built in C .
 
@@ -19,14 +19,14 @@ longer reachable.
   - **Trace** through their references to find everything reachable
   - **Sweep** away whatever's left to free the memory
 
-##Hardest part
+## Hardest part
 
 Pointers and stack allocation were the toughest for me. Wrapping my head
 around what a pointer actually points to, and how the stack stores things,
 took a while to click. But once it did, the rest made way more sense
 
 
-##Notes
+## Notes
 This was a learning project. Taught me a lot about how memory works under
 the hood in C (malloc/free, dangling pointers, and why GC exists).
 
