@@ -49,3 +49,6 @@ int main() {
 
   return 0;
 }
+/*output:
+Before mark: a=0, b=0
+After mark:  a=1, b=1*/
